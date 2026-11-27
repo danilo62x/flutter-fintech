@@ -4,7 +4,7 @@
 
 [![Licença: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE) ![Grátis](https://img.shields.io/badge/price-free-brightgreen)
 
-Flutter Wallet é um template gratuito de carteira e banco digital construído com Flutter 3.44 e Material 3. São 8 telas com tema claro e escuro: home da carteira com cartão de saldo e ações rápidas, lista de transações com filtros, gestão de cartão com limite e fatura, fluxo de envio de Pix com teclado numérico próprio, tela de recebimento com QR Code desenhado em CustomPaint, extrato com gráfico donut de gastos por categoria, formulário de adicionar cartão com preview ao vivo e perfil com opções de segurança. Todos os dados são mocks locais, então o app roda sem backend, e os serviços http indicam onde uma API real entraria. Faz parte da faixa gratuita do catálogo [template.dev.br](https://template.dev.br).
+Flutter Wallet é um template gratuito de carteira e banco digital construído com Flutter 3.44 e Material 3. São 8 telas com tema claro e escuro: home da carteira com cartão de saldo e ações rápidas, lista de transações com filtros, gestão de cartão com limite e fatura, fluxo de envio de Pix com teclado numérico próprio, tela de recebimento com QR Code desenhado em CustomPaint, extrato com gráfico donut de gastos por categoria, formulário de adicionar cartão com preview ao vivo e perfil com opções de segurança. Todos os dados são mocks locais, então o app roda sem backend, e os serviços http indicam onde uma API real entraria.
 
 ## Telas
 
@@ -105,13 +105,9 @@ Troque `seed` para mudar a cara do app inteiro: `ColorScheme.fromSeed` deriva to
 
 MVVM com provider. Cada tela tem um view model `ChangeNotifier` em `lib/ui/features/<feature>/view_models/`, criado com `ChangeNotifierProvider` nas definições de rota em `lib/core/router.dart`. Os view models leem dos repositórios em `lib/data/repositories/`, que retornam dados mock através dos serviços em `lib/data/services/`.
 
-## Apoie o projeto
-
-Este template é gratuito e tem licença MIT. As doações mantêm os templates gratuitos atualizados a cada versão nova do Flutter: https://template.dev.br/doar?template=flutter-fintech
-
 ## Mais templates
 
-O catálogo completo, com templates grátis e premium, está em https://template.dev.br.
+Mais templates gratuitos (painéis admin, sistemas por segmento e apps Flutter): https://github.com/danilo62x?tab=repositories
 
 ## Licença
 
